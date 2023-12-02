@@ -19,9 +19,6 @@ plugins=(git bundler dotenv macos rake rbenv ruby autojump brew zsh-autosuggesti
 source $ZSH/oh-my-zsh.sh
 
 # Custom aliases and functions
-alias cloud="cd; cd library/mobile\ documents/com\~apple\~clouddocs/"
-alias college="cloud; cd college"
-alias cs="college;cd 2023_spring"
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
